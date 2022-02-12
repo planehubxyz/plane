@@ -1,0 +1,46 @@
+::-moz-selection {
+    background-color: #f79817;
+    color: #000;
+}
+
+::selection {
+    background-color: #f79817;
+    color: #000;
+}
+
+body {
+    background-color: #000;
+    background-image: url('https://source.unsplash.com/4096x2160/?plane,aeroplane,airplane');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    background-color: #000;
+    padding: 32px;
+}
+
+.heading {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.mb {
+    margin-bottom: 8px;
+}
+
+.ns {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.logo-background {
+    background-color: #f79817;
+    border-radius: 4px;
+    color: #000;
+    padding: 2px;
+}
